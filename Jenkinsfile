@@ -70,7 +70,7 @@ pipeline {
                 )
                 kubernetesDeploy(
                     kubeconfigId: 'kubeconfig',
-                    configs: 'train-schedule-kube.yml',
+                    configs: 'train-schedule-kube-canary.yml',
                     enableConfigSubstitution: true
                 )
             }
